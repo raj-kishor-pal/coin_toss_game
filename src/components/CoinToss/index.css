@@ -1,0 +1,69 @@
+/* Write your CSS here */
+.bg-container {
+  background: #f9d423;
+  background: linear-gradient(
+    90deg,
+    rgba(249, 212, 35, 1) 0%,
+    rgba(226, 161, 57, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-toss-card {
+  width: 500px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 30px 30px;
+  writing-mode: horizontal-tb;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 38px;
+  color: #a35200;
+}
+
+.head-or-tail {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #334155;
+}
+
+.head-tail-image {
+  width: 200px;
+  height: 200px;
+}
+
+.toss-button {
+  width: 85px;
+  height: 30px;
+  border: none;
+  border-radius: 7px;
+  background-color: #f9d423;
+  color: #a35200;
+  font-family: 'Roboto';
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.counters-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.counter-text {
+  color: #475569;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin-inline: 30px;
+}
